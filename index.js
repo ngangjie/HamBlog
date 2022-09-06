@@ -4,6 +4,7 @@ const bodyparser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
 const passport = require('passport');
+ require('dotenv').config()
 
 
 //initialized the app
